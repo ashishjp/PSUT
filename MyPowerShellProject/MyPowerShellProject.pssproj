@@ -26,12 +26,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="RunBooks\" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="AnswerToUltimateQuestion.ps1" />
     <Compile Include="FunctionWithFileOperation.ps1" />
     <Compile Include="ImportRunBook.ps1" />
-    <Compile Include="MyFirstRunBook.ps1" />
+    <Compile Include="RunBooks\MyFirstRunBook.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

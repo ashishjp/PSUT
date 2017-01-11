@@ -1,4 +1,4 @@
-﻿$project = (Split-Path -Parent $MyInvocation.MyCommand.Path).Replace(".Tests", "")
+﻿$project = (Split-Path -Parent $MyInvocation.MyCommand.Path).Replace(".Tests", "/RunBooks")
 $sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".tests.", ".")
 . "$project\$sut"
 
