@@ -1,12 +1,13 @@
 #
-# MyFirstRunBook.ps1
+# MyFirstRunBook.ps1 New
 #
 
-#function MyFirstRunBook {
+
+function MyFirstRunBook {
 
 	param(
-		[string]$name = "G"
+		[string]$name = "Test"
 	)
 
 	Write-Output "Hello $name"
-#}
+}
