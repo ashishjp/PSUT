@@ -27,12 +27,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Modules\" />
+    <Folder Include="Modules\m2\" />
     <Folder Include="RunBooks\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnswerToUltimateQuestion.ps1" />
     <Compile Include="FunctionWithFileOperation.ps1" />
     <Compile Include="ImportRunBook.ps1" />
+    <Compile Include="Modules\m2\m2.psd1" />
+    <Compile Include="Modules\m2\m2.psm1" />
     <Compile Include="RunBooks\MyFirstRunBook.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
